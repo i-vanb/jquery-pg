@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>pagination-jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="main.js" defer></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div id="path" class="path">
+            <a class="path__link">Главная</a> -
+            <a class="path__link">Закупки и тендеры</a> -
+            <a class="path__link">Компании</a>
+        </div>
+        <h1>Компании</h1>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Адрес</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+</main>
+<footer>
+    <div class="container">
+        <div id="pagination">
+            <button id="linkPagePrev" class="pagination__link arrow-prev">
+                <img src="arrow.svg" >
+            </button>
+            <div id="paginationPages">
+                <button class="pagination__link current">1</button>
+                <button class="pagination__link">2</button>
+                <button class="pagination__link">3</button>
+            </div>
+<!--            <a class="pagination__link" href="#">15</a>-->
+            <button id="linkPageNext" class="pagination__link arrow-next">
+                <img src="arrow.svg" >
+            </button>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
