@@ -54,7 +54,7 @@ $(document).ready(function() {
     loadTablePage(1);
 
     function next() {
-        loadTablePage(20000);
+        loadTablePage(currentPage+1);
     }
     function prev() {
         loadTablePage(currentPage-1);
